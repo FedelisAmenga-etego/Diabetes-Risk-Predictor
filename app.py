@@ -14,7 +14,7 @@ models = {"Tuned Random Forest": rf_tuned_model,
           "Random Forest": rf_model,
           "XGBoost": xgb_model}
 # Page config
-st.set_page_config(page_title="🩺 Diabetes Prediction App", layout="wide")
+st.set_page_config(page_title="🩺 Diabetes Prediction", layout="wide")
 
 # Custom CSS for styling
 st.markdown(
@@ -56,7 +56,21 @@ st.markdown(
 
 # Title
 st.title("🩺 Diabetes Prediction")
-st.subheader("Machine Learning powered tool for predicting likelihood of diabetes")
+st.subheader("Machine Learning powered tool for predicting likelihood of diabetes.")
+st.markdown(
+    """
+    <style>
+    .title {
+        color: #2E86C1; /* Blue shade */
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown("<h2 class='title'>Diabetes Risk Prediction</h2>", unsafe_allow_html=True)
 
 # --- Model Comparison Table ---
 st.markdown("### 📊 Model Comparison")
@@ -180,4 +194,5 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown("---")
+
 
