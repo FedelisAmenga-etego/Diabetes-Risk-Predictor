@@ -197,7 +197,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+Amenga-etego Fedelis - fedelis.amenga-etego@outlook.com
 
 Project Link: [https://github.com/FedelisAmenga-etego/diabetes-prediction](https://github.com/yourusername/diabetes-prediction)
 
