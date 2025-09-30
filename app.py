@@ -55,7 +55,7 @@ st.markdown(
 )
 
 # Title
-st.title("🩺 Diabetes Prediction App")
+st.title("🩺 Diabetes Prediction")
 st.subheader("Machine Learning powered tool for predicting likelihood of diabetes")
 
 # --- Model Comparison Table ---
@@ -180,3 +180,4 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown("---")
+
