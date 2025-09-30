@@ -70,7 +70,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("<h2 class='title'>Diabetes Risk Prediction</h2>", unsafe_allow_html=True)
+
 
 # --- Model Comparison Table ---
 st.markdown("### 📊 Model Comparison")
@@ -194,5 +194,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown("---")
+
 
 
